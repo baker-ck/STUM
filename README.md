@@ -13,6 +13,28 @@ This repository contains trained baseline models (STGCN, AGCRN, GraphWaveNet, D2
 ```
 
 ### Repo structure
+```
+stum-results/
+├── README.md
+├── baseline-configs/
+│   ├── acgrn.yaml
+│   ├── stgcn.yaml
+│   ├── d2stgnn.yaml
+│   ├── stae.yaml
+│   ├── stum_vanilla.yaml
+│   └── stid.yaml
+├── baseline-models/
+│   └── README.md   # external links to .pt files
+├── enhanced-configs/
+│   ├── stum_acgrn.yaml
+│   ├── stum_stgcn.yaml
+│   ├── stum_d2stgnn.yaml
+│   ├── stum_stae.yaml
+│   └── stum_stid.yaml
+├── enhanced-models/
+│   └── README.md   # external links to .pt files
+└── stum_version.txt
+```
 
 ### Environment
 - Python:  3.8.8
@@ -44,4 +66,5 @@ This repository contains trained baseline models (STGCN, AGCRN, GraphWaveNet, D2
 | STUM_STID  |           |          |          |
 | STUM_STAEformer  |           |          |          |
 | STUM_D2STGNN  |           |          |          |
+
 
