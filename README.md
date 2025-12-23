@@ -51,7 +51,7 @@ STUM/
 PEMS-BAY 07
 
 ### Results
-| Trained baseline | MAE | RMSE | MAPE |
+| Trained baseline | Average MAE | Average RMSE | Average MAPE |
 |-----------|-----------------------------|------------------------------|-------------------------------|
 | STUM (vanilla)   |           |           |           |
 | STGCN   |           |           |           |
@@ -59,9 +59,9 @@ PEMS-BAY 07
 | GWNet  |           |          |          |
 | STID  |           |          |          |
 | STAEformer  |           |          |          |
-| D2STGNN  |           |          |          |
+| D2STGNN  | 19.6793          |32.7329          |    0.0826      |
 
-| Enhanced baseline | MAE | RMSE | MAPE |
+| Enhanced baseline | Average MAE | Average RMSE | Average MAPE |
 |-----------|-----------------------------|------------------------------|-------------------------------|
 | STUM_STGCN   |           |           |           |
 | STUM_AGCRN  |           |          |          |
@@ -69,6 +69,7 @@ PEMS-BAY 07
 | STUM_STID  |           |          |          |
 | STUM_STAEformer  |           |          |          |
 | STUM_D2STGNN  |           |          |          |
+
 
 
 
