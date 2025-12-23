@@ -53,22 +53,23 @@ PEMS-BAY 07
 ### Results
 | Trained baseline | Average MAE | Average RMSE | Average MAPE |
 |-----------|-----------------------------|------------------------------|-------------------------------|
-| STUM (vanilla)   |           |           |           |
-| STGCN   |           |           |           |
-| AGCRN  |   19.6861        |   32.7425       |  0.0828        |
-| GWNet  |           |          |          |
-| STID  |           |          |          |
-| STAEformer  |           |          |          |
-| D2STGNN  | 19.6793          |32.7329          |    0.0826      |
+| agcrn  |   19.6861        |   32.7425       |  0.0828        |
+| d2stgnn  | 19.6793          |32.7329          |    0.0826      |
+| gwnet  |           |          |          |
+| stae  |           |          |          |
+| stgcn   |           |           |           |
+| stid  | 19.6953          |32.7480          |    0.0831      |
+
 
 | Enhanced baseline | Average MAE | Average RMSE | Average MAPE |
 |-----------|-----------------------------|------------------------------|-------------------------------|
-| STUM_STGCN   |           |           |           |
-| STUM_AGCRN  |           |          |          |
-| STUM_GWNet  |           |          |          |
-| STUM_STID  |           |          |          |
-| STUM_STAEformer  |           |          |          |
-| STUM_D2STGNN  |           |          |          |
+| stum_agcrn  |           |          |          |
+| stum_d2stgnn  |           |          |          |
+| stum_gwnet  |           |          |          |
+| stum_stae  |           |          |          |
+| stum_stgcn   |           |           |           |
+| stum_stid  |           |          |          |
+
 
 
 
