@@ -1,4 +1,4 @@
-## STUM-enhanced GNN Results
+## STUM Results
 
 This repository contains trained baseline models (STGCN, AGCRN, GraphWaveNet, D2STGNN, STAEformer and STID) and enhanced STUM models for each trained baseline. Test results are provided for comparison. The implementation is based on the IEEE T-ITS 2025 paper “Cross Space and Time: A Spatio-Temporal Unitized Model for Traffic Flow Forecasting” (https://arxiv.org/pdf/2411.09251), with the following citation:
 
@@ -69,6 +69,7 @@ PEMS-BAY 07
 | stum_stae  |           |          |          |
 | stum_stgcn   |           |           |           |
 | stum_stid  |           |          |          |
+
 
 
 
