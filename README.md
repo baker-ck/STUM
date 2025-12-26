@@ -44,7 +44,7 @@ STUM/
 
 ### Environment
 - Python: 3.10.0
-- Device: MPS (Apple Silicon)
+- Device: MPS (Apple Silicon, MacOS Tahoe 26.2)
 - Conda environment: exported in `environment.yml`
 - Python dependencies: listed in `requirements.txt`
 
@@ -70,6 +70,7 @@ PEMS-BAY 07
 | stum_stae  |           |          |          |
 | stum_stgcn   |           |           |           |
 | stum_stid  |           |          |          |
+
 
 
 
