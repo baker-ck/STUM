@@ -19,23 +19,13 @@ We use the publicly available STUM (https://github.com/RWLinno/STUM) codebase as
 ```
 STUM/
 ├── README.md
-├── baseline_configs/
-│   ├── acgrn.yaml
-│   ├── stgcn.yaml
-│   ├── d2stgnn.yaml
-│   ├── stae.yaml
-│   ├── stum_vanilla.yaml
-│   └── stid.yaml
 ├── baseline_models/
-│   └── README.md   # external links to .pt files
-├── enhanced_configs/
-│   ├── stum_acgrn.yaml
-│   ├── stum_stgcn.yaml
-│   ├── stum_d2stgnn.yaml
-│   ├── stum_stae.yaml
-│   └── stum_stid.yaml
+│   └── label_pre_trained_agcrn_model.pt
+|   └── pre_trained_agcrn_model.pt
+|   └── pred_pre_trained_agcrn_model.pt
+|   └── # coming soon
 ├── enhanced_models/
-│   └── README.md   # external links to .pt files
+│   └── # coming soon
 ├── stum_patches/
 │   └── non_algorithmic_fixes.diff
 └── stum_version.txt
@@ -70,6 +60,7 @@ PEMS-BAY 07
 | stum_stae  |           |          |          |
 | stum_stgcn   |           |           |           |
 | stum_stid  |           |          |          |
+
 
 
 
